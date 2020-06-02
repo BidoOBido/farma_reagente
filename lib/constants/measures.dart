@@ -1,0 +1,3 @@
+class Measures {
+  Measures._();
+}

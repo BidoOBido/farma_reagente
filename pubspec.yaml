@@ -1,0 +1,42 @@
+name: farma_reagente
+description: .
+
+version: 1.0.0+1
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite:
+  path:
+  emojis: ^0.8.1
+  redux:   
+  flutter_redux: 
+  meta: 
+  equatable:
+  floor: ^0.12.0
+  cupertino_icons: ^0.1.2
+  internationalization:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^0.12.0
+  build_runner: ^1.7.3
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/logo.png
+  - assets/i18n/
+  - internationalization.yaml
+
